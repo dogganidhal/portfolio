@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Nidhal's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Full stack developer, with a special attention to software architecture and distributed systems. Likes to participate throughout the full project life cycle, from ideas to live products. Heavily invested in containerization with Docker and Kubernetes, ArgoCD...",
   og: {
     title: "Nidhal Dogga's Portfolio",
     type: "website",
@@ -22,7 +22,7 @@ const greeting = {
   title: "Nidhal Dogga",
   logo_name: "NDogga",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Full stack developer, with a special attention to software architecture and distributed systems. Likes to participate throughout the full project life cycle, from ideas to live products. Heavily invested in containerization with Docker and Kubernetes, ArgoCD...",
   resumeLink: "/static/resume.pdf",
   portfolio_repository: "https://github.com/dogganidhal/portfolio",
   githubProfile: "https://github.com/dogganidhal",
@@ -532,7 +532,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "nidhal_avatar.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "Always available to discuss new adventures, or software engineering in general. Have an idea on how can we collaborate together ? Feel free to say hi.",
   },
   blogSection: {
     title: "Blogs",
