@@ -8,12 +8,12 @@ class ExperienceCard extends Component {
     return (
       <div
         className="experience-card"
-        style={{ border: `1px solid ${experience["color"]}` }}
+        style={{ border: `2px solid ${experience["color"]}` }}
       >
         <div className="experience-card-logo-div">
           <img
             className="experience-card-logo"
-            src={require(`../../assests/images/${experience["logo_path"]}`)}
+            src={require(`../../assets/images/${experience["logo_path"]}`)}
             alt=""
           />
         </div>
@@ -57,9 +57,8 @@ class ExperienceCard extends Component {
           <p
             className="experience-card-description"
             style={{ color: theme.text }}
-          >
-            {experience["description"]}
-          </p>
+            dangerouslySetInnerHTML={{ __html: experience["description"] }}
+          />
         </div>
       </div>
     );

@@ -1,17 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./App.css";
 import Main from "./containers/Main";
 import { ThemeProvider } from "styled-components";
-import { chosenTheme } from "./theme";
 import { GlobalStyles } from "./global";
+import { ThemeContext } from "./theme";
 
 function App() {
+  const theme = useContext(ThemeContext);
+
   return (
-    <ThemeProvider theme={chosenTheme}>
+    <ThemeProvider theme={theme}>
       <>
         <GlobalStyles />
         <div>
-          <Main theme={chosenTheme} />
+          <Main theme={theme} />
         </div>
       </>
     </ThemeProvider>
